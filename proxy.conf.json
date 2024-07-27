@@ -1,0 +1,18 @@
+{
+    "/api": {
+        "target": "https://example.scalable-backend.com:5000",
+        "context": [
+            "/user",
+            "/mpesa",
+            "/paypal",
+            "/stripe",
+            "/places_api",
+            "/directions_api",
+            "/geocode_api",
+            "/roads_api"
+        ],
+        "secure": false,
+        "changeOrigin": true,
+        "logLevel": "info"
+    }
+}
